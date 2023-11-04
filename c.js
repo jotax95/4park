@@ -9,3 +9,14 @@ function change_all() {
         image.src = "./img/blue.jpg";
     }
   }
+  // detect - TEST
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+  if (prefersDarkScheme.matches) {
+    var img = document.getElementById("image");
+    image.src = "./img/kita.jpg";
+    document.body.classList.add("dark-mode");
+    
+  } else {
+    document.body.classList.remove("dark-mode");
+  }
