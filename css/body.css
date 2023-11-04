@@ -1,0 +1,14 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    place-items: center;
+    transition: background 0.3s ease;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
